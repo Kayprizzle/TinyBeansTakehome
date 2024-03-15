@@ -8,12 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		F5031F582BA3DCE9002D5AB0 /* TinyBeansMovieApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5031F572BA3DCE9002D5AB0 /* TinyBeansMovieApp.swift */; };
-		F5031F5A2BA3DCE9002D5AB0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5031F592BA3DCE9002D5AB0 /* ContentView.swift */; };
+		F5031F5A2BA3DCE9002D5AB0 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5031F592BA3DCE9002D5AB0 /* HomeView.swift */; };
 		F5031F5C2BA3DCEA002D5AB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5031F5B2BA3DCEA002D5AB0 /* Assets.xcassets */; };
 		F5031F5F2BA3DCEA002D5AB0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5031F5E2BA3DCEA002D5AB0 /* Preview Assets.xcassets */; };
 		F5031F692BA3DCEA002D5AB0 /* TinyBeansMovieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5031F682BA3DCEA002D5AB0 /* TinyBeansMovieTests.swift */; };
 		F5031F732BA3DCEA002D5AB0 /* TinyBeansMovieUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5031F722BA3DCEA002D5AB0 /* TinyBeansMovieUITests.swift */; };
 		F5031F752BA3DCEA002D5AB0 /* TinyBeansMovieUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5031F742BA3DCEA002D5AB0 /* TinyBeansMovieUITestsLaunchTests.swift */; };
+		F5031F872BA3E79C002D5AB0 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = F5031F862BA3E79C002D5AB0 /* Kingfisher */; };
+		F5031F892BA3E7A0002D5AB0 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = F5031F882BA3E7A0002D5AB0 /* Alamofire */; };
+		F5031F8B2BA3E8BA002D5AB0 /* MovieResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5031F8A2BA3E8B9002D5AB0 /* MovieResponse.swift */; };
+		F5031F8D2BA3F959002D5AB0 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5031F8C2BA3F959002D5AB0 /* NetworkManager.swift */; };
+		F5031F912BA3FF89002D5AB0 /* MovieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5031F902BA3FF89002D5AB0 /* MovieView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +41,7 @@
 /* Begin PBXFileReference section */
 		F5031F542BA3DCE9002D5AB0 /* TinyBeansMovie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TinyBeansMovie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5031F572BA3DCE9002D5AB0 /* TinyBeansMovieApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinyBeansMovieApp.swift; sourceTree = "<group>"; };
-		F5031F592BA3DCE9002D5AB0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F5031F592BA3DCE9002D5AB0 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		F5031F5B2BA3DCEA002D5AB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F5031F5E2BA3DCEA002D5AB0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F5031F642BA3DCEA002D5AB0 /* TinyBeansMovieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TinyBeansMovieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +49,9 @@
 		F5031F6E2BA3DCEA002D5AB0 /* TinyBeansMovieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TinyBeansMovieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5031F722BA3DCEA002D5AB0 /* TinyBeansMovieUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinyBeansMovieUITests.swift; sourceTree = "<group>"; };
 		F5031F742BA3DCEA002D5AB0 /* TinyBeansMovieUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinyBeansMovieUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F5031F8A2BA3E8B9002D5AB0 /* MovieResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieResponse.swift; sourceTree = "<group>"; };
+		F5031F8C2BA3F959002D5AB0 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		F5031F902BA3FF89002D5AB0 /* MovieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +59,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5031F872BA3E79C002D5AB0 /* Kingfisher in Frameworks */,
+				F5031F892BA3E7A0002D5AB0 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +88,7 @@
 				F5031F672BA3DCEA002D5AB0 /* TinyBeansMovieTests */,
 				F5031F712BA3DCEA002D5AB0 /* TinyBeansMovieUITests */,
 				F5031F552BA3DCE9002D5AB0 /* Products */,
+				F5031F852BA3E79C002D5AB0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -95,7 +106,10 @@
 			isa = PBXGroup;
 			children = (
 				F5031F572BA3DCE9002D5AB0 /* TinyBeansMovieApp.swift */,
-				F5031F592BA3DCE9002D5AB0 /* ContentView.swift */,
+				F5031F592BA3DCE9002D5AB0 /* HomeView.swift */,
+				F5031F902BA3FF89002D5AB0 /* MovieView.swift */,
+				F5031F8C2BA3F959002D5AB0 /* NetworkManager.swift */,
+				F5031F8A2BA3E8B9002D5AB0 /* MovieResponse.swift */,
 				F5031F5B2BA3DCEA002D5AB0 /* Assets.xcassets */,
 				F5031F5D2BA3DCEA002D5AB0 /* Preview Content */,
 			);
@@ -127,6 +141,13 @@
 			path = TinyBeansMovieUITests;
 			sourceTree = "<group>";
 		};
+		F5031F852BA3E79C002D5AB0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +164,10 @@
 			dependencies = (
 			);
 			name = TinyBeansMovie;
+			packageProductDependencies = (
+				F5031F862BA3E79C002D5AB0 /* Kingfisher */,
+				F5031F882BA3E7A0002D5AB0 /* Alamofire */,
+			);
 			productName = TinyBeansMovie;
 			productReference = F5031F542BA3DCE9002D5AB0 /* TinyBeansMovie.app */;
 			productType = "com.apple.product-type.application";
@@ -261,7 +286,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F5031F5A2BA3DCE9002D5AB0 /* ContentView.swift in Sources */,
+				F5031F8B2BA3E8BA002D5AB0 /* MovieResponse.swift in Sources */,
+				F5031F912BA3FF89002D5AB0 /* MovieView.swift in Sources */,
+				F5031F8D2BA3F959002D5AB0 /* NetworkManager.swift in Sources */,
+				F5031F5A2BA3DCE9002D5AB0 /* HomeView.swift in Sources */,
 				F5031F582BA3DCE9002D5AB0 /* TinyBeansMovieApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -611,6 +639,19 @@
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F5031F862BA3E79C002D5AB0 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F5031F812BA3E2BD002D5AB0 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		F5031F882BA3E7A0002D5AB0 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F5031F822BA3E2D8002D5AB0 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F5031F4C2BA3DCE9002D5AB0 /* Project object */;
 }
