@@ -215,6 +215,10 @@
 				Base,
 			);
 			mainGroup = F5031F4B2BA3DCE9002D5AB0;
+			packageReferences = (
+				F5031F812BA3E2BD002D5AB0 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				F5031F822BA3E2D8002D5AB0 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = F5031F552BA3DCE9002D5AB0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -588,6 +592,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F5031F812BA3E2BD002D5AB0 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.11.0;
+			};
+		};
+		F5031F822BA3E2D8002D5AB0 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.9.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = F5031F4C2BA3DCE9002D5AB0 /* Project object */;
 }
