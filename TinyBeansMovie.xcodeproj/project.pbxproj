@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F5031F582BA3DCE9002D5AB0 /* TinyBeansMovieApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5031F572BA3DCE9002D5AB0 /* TinyBeansMovieApp.swift */; };
+		F5031F5A2BA3DCE9002D5AB0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5031F592BA3DCE9002D5AB0 /* ContentView.swift */; };
+		F5031F5C2BA3DCEA002D5AB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5031F5B2BA3DCEA002D5AB0 /* Assets.xcassets */; };
+		F5031F5F2BA3DCEA002D5AB0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5031F5E2BA3DCEA002D5AB0 /* Preview Assets.xcassets */; };
+		F5031F692BA3DCEA002D5AB0 /* TinyBeansMovieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5031F682BA3DCEA002D5AB0 /* TinyBeansMovieTests.swift */; };
+		F5031F732BA3DCEA002D5AB0 /* TinyBeansMovieUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5031F722BA3DCEA002D5AB0 /* TinyBeansMovieUITests.swift */; };
+		F5031F752BA3DCEA002D5AB0 /* TinyBeansMovieUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5031F742BA3DCEA002D5AB0 /* TinyBeansMovieUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F5031F652BA3DCEA002D5AB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5031F4C2BA3DCE9002D5AB0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5031F532BA3DCE9002D5AB0;
+			remoteInfo = TinyBeansMovie;
+		};
+		F5031F6F2BA3DCEA002D5AB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5031F4C2BA3DCE9002D5AB0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5031F532BA3DCE9002D5AB0;
+			remoteInfo = TinyBeansMovie;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F5031F542BA3DCE9002D5AB0 /* TinyBeansMovie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TinyBeansMovie.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5031F572BA3DCE9002D5AB0 /* TinyBeansMovieApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinyBeansMovieApp.swift; sourceTree = "<group>"; };
+		F5031F592BA3DCE9002D5AB0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F5031F5B2BA3DCEA002D5AB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F5031F5E2BA3DCEA002D5AB0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F5031F642BA3DCEA002D5AB0 /* TinyBeansMovieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TinyBeansMovieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5031F682BA3DCEA002D5AB0 /* TinyBeansMovieTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinyBeansMovieTests.swift; sourceTree = "<group>"; };
+		F5031F6E2BA3DCEA002D5AB0 /* TinyBeansMovieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TinyBeansMovieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5031F722BA3DCEA002D5AB0 /* TinyBeansMovieUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinyBeansMovieUITests.swift; sourceTree = "<group>"; };
+		F5031F742BA3DCEA002D5AB0 /* TinyBeansMovieUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinyBeansMovieUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5031F512BA3DCE9002D5AB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5031F612BA3DCEA002D5AB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5031F6B2BA3DCEA002D5AB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F5031F4B2BA3DCE9002D5AB0 = {
+			isa = PBXGroup;
+			children = (
+				F5031F562BA3DCE9002D5AB0 /* TinyBeansMovie */,
+				F5031F672BA3DCEA002D5AB0 /* TinyBeansMovieTests */,
+				F5031F712BA3DCEA002D5AB0 /* TinyBeansMovieUITests */,
+				F5031F552BA3DCE9002D5AB0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F5031F552BA3DCE9002D5AB0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5031F542BA3DCE9002D5AB0 /* TinyBeansMovie.app */,
+				F5031F642BA3DCEA002D5AB0 /* TinyBeansMovieTests.xctest */,
+				F5031F6E2BA3DCEA002D5AB0 /* TinyBeansMovieUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5031F562BA3DCE9002D5AB0 /* TinyBeansMovie */ = {
+			isa = PBXGroup;
+			children = (
+				F5031F572BA3DCE9002D5AB0 /* TinyBeansMovieApp.swift */,
+				F5031F592BA3DCE9002D5AB0 /* ContentView.swift */,
+				F5031F5B2BA3DCEA002D5AB0 /* Assets.xcassets */,
+				F5031F5D2BA3DCEA002D5AB0 /* Preview Content */,
+			);
+			path = TinyBeansMovie;
+			sourceTree = "<group>";
+		};
+		F5031F5D2BA3DCEA002D5AB0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F5031F5E2BA3DCEA002D5AB0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F5031F672BA3DCEA002D5AB0 /* TinyBeansMovieTests */ = {
+			isa = PBXGroup;
+			children = (
+				F5031F682BA3DCEA002D5AB0 /* TinyBeansMovieTests.swift */,
+			);
+			path = TinyBeansMovieTests;
+			sourceTree = "<group>";
+		};
+		F5031F712BA3DCEA002D5AB0 /* TinyBeansMovieUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F5031F722BA3DCEA002D5AB0 /* TinyBeansMovieUITests.swift */,
+				F5031F742BA3DCEA002D5AB0 /* TinyBeansMovieUITestsLaunchTests.swift */,
+			);
+			path = TinyBeansMovieUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5031F532BA3DCE9002D5AB0 /* TinyBeansMovie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5031F782BA3DCEA002D5AB0 /* Build configuration list for PBXNativeTarget "TinyBeansMovie" */;
+			buildPhases = (
+				F5031F502BA3DCE9002D5AB0 /* Sources */,
+				F5031F512BA3DCE9002D5AB0 /* Frameworks */,
+				F5031F522BA3DCE9002D5AB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TinyBeansMovie;
+			productName = TinyBeansMovie;
+			productReference = F5031F542BA3DCE9002D5AB0 /* TinyBeansMovie.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F5031F632BA3DCEA002D5AB0 /* TinyBeansMovieTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5031F7B2BA3DCEA002D5AB0 /* Build configuration list for PBXNativeTarget "TinyBeansMovieTests" */;
+			buildPhases = (
+				F5031F602BA3DCEA002D5AB0 /* Sources */,
+				F5031F612BA3DCEA002D5AB0 /* Frameworks */,
+				F5031F622BA3DCEA002D5AB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5031F662BA3DCEA002D5AB0 /* PBXTargetDependency */,
+			);
+			name = TinyBeansMovieTests;
+			productName = TinyBeansMovieTests;
+			productReference = F5031F642BA3DCEA002D5AB0 /* TinyBeansMovieTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F5031F6D2BA3DCEA002D5AB0 /* TinyBeansMovieUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5031F7E2BA3DCEA002D5AB0 /* Build configuration list for PBXNativeTarget "TinyBeansMovieUITests" */;
+			buildPhases = (
+				F5031F6A2BA3DCEA002D5AB0 /* Sources */,
+				F5031F6B2BA3DCEA002D5AB0 /* Frameworks */,
+				F5031F6C2BA3DCEA002D5AB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5031F702BA3DCEA002D5AB0 /* PBXTargetDependency */,
+			);
+			name = TinyBeansMovieUITests;
+			productName = TinyBeansMovieUITests;
+			productReference = F5031F6E2BA3DCEA002D5AB0 /* TinyBeansMovieUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5031F4C2BA3DCE9002D5AB0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					F5031F532BA3DCE9002D5AB0 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					F5031F632BA3DCEA002D5AB0 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = F5031F532BA3DCE9002D5AB0;
+					};
+					F5031F6D2BA3DCEA002D5AB0 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = F5031F532BA3DCE9002D5AB0;
+					};
+				};
+			};
+			buildConfigurationList = F5031F4F2BA3DCE9002D5AB0 /* Build configuration list for PBXProject "TinyBeansMovie" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F5031F4B2BA3DCE9002D5AB0;
+			productRefGroup = F5031F552BA3DCE9002D5AB0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5031F532BA3DCE9002D5AB0 /* TinyBeansMovie */,
+				F5031F632BA3DCEA002D5AB0 /* TinyBeansMovieTests */,
+				F5031F6D2BA3DCEA002D5AB0 /* TinyBeansMovieUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F5031F522BA3DCE9002D5AB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5031F5F2BA3DCEA002D5AB0 /* Preview Assets.xcassets in Resources */,
+				F5031F5C2BA3DCEA002D5AB0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5031F622BA3DCEA002D5AB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5031F6C2BA3DCEA002D5AB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5031F502BA3DCE9002D5AB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5031F5A2BA3DCE9002D5AB0 /* ContentView.swift in Sources */,
+				F5031F582BA3DCE9002D5AB0 /* TinyBeansMovieApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5031F602BA3DCEA002D5AB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5031F692BA3DCEA002D5AB0 /* TinyBeansMovieTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5031F6A2BA3DCEA002D5AB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5031F732BA3DCEA002D5AB0 /* TinyBeansMovieUITests.swift in Sources */,
+				F5031F752BA3DCEA002D5AB0 /* TinyBeansMovieUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F5031F662BA3DCEA002D5AB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5031F532BA3DCE9002D5AB0 /* TinyBeansMovie */;
+			targetProxy = F5031F652BA3DCEA002D5AB0 /* PBXContainerItemProxy */;
+		};
+		F5031F702BA3DCEA002D5AB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5031F532BA3DCE9002D5AB0 /* TinyBeansMovie */;
+			targetProxy = F5031F6F2BA3DCEA002D5AB0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F5031F762BA3DCEA002D5AB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F5031F772BA3DCEA002D5AB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F5031F792BA3DCEA002D5AB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TinyBeansMovie/Preview Content\"";
+				DEVELOPMENT_TEAM = 75F4F97HUN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kaypree.TinyBeansMovie;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F5031F7A2BA3DCEA002D5AB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TinyBeansMovie/Preview Content\"";
+				DEVELOPMENT_TEAM = 75F4F97HUN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kaypree.TinyBeansMovie;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F5031F7C2BA3DCEA002D5AB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 75F4F97HUN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kaypree.TinyBeansMovieTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TinyBeansMovie.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TinyBeansMovie";
+			};
+			name = Debug;
+		};
+		F5031F7D2BA3DCEA002D5AB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 75F4F97HUN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kaypree.TinyBeansMovieTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TinyBeansMovie.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TinyBeansMovie";
+			};
+			name = Release;
+		};
+		F5031F7F2BA3DCEA002D5AB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 75F4F97HUN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kaypree.TinyBeansMovieUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TinyBeansMovie;
+			};
+			name = Debug;
+		};
+		F5031F802BA3DCEA002D5AB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 75F4F97HUN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kaypree.TinyBeansMovieUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TinyBeansMovie;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F5031F4F2BA3DCE9002D5AB0 /* Build configuration list for PBXProject "TinyBeansMovie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5031F762BA3DCEA002D5AB0 /* Debug */,
+				F5031F772BA3DCEA002D5AB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5031F782BA3DCEA002D5AB0 /* Build configuration list for PBXNativeTarget "TinyBeansMovie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5031F792BA3DCEA002D5AB0 /* Debug */,
+				F5031F7A2BA3DCEA002D5AB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5031F7B2BA3DCEA002D5AB0 /* Build configuration list for PBXNativeTarget "TinyBeansMovieTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5031F7C2BA3DCEA002D5AB0 /* Debug */,
+				F5031F7D2BA3DCEA002D5AB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5031F7E2BA3DCEA002D5AB0 /* Build configuration list for PBXNativeTarget "TinyBeansMovieUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5031F7F2BA3DCEA002D5AB0 /* Debug */,
+				F5031F802BA3DCEA002D5AB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F5031F4C2BA3DCE9002D5AB0 /* Project object */;
+}
