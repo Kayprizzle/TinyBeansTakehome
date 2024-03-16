@@ -5,65 +5,69 @@
 //  Created by Kaypree Hodges on 3/14/24.
 //
 
-import SwiftUI
-import Combine
+import Foundation
 import Alamofire
 import Kingfisher
 
 class NetworkManager: ObservableObject {
-    @Published var movies: [Movie] = []
 
-    let key = ProcessInfo.processInfo.environment["API_KEY"] ?? ""
-    var headers: HTTPHeaders {
+    private let key = ProcessInfo.processInfo.environment["API_KEY"] ?? ""
+    private var headers: HTTPHeaders {
         [
             "accept": "application/json",
             "Authorization": "Bearer \(key)"
         ]
     }
 
-    fileprivate var popular: String {
-        return baseUrl + "/movie/popular?language=en-US&page=1"
-    }
-
-    fileprivate var nowPlaying: String {
-        return baseUrl + "/movie/top_rated"
-    }
-
-    fileprivate let baseUrl = "https://api.themoviedb.org/3"
+    private let baseUrl = "https://api.themoviedb.org/3"
 
     init() {}
 
-    func fetchMovies(list: MovieListType) {
-        var endpoint: String
-
-        switch list {
-        case .nowPlaying:
-            endpoint = nowPlaying
-        case .popular:
-            endpoint = popular
-        }
-
-        AF.request(endpoint, headers: headers).responseDecodable(of: MovieResponse.self) { [weak self] response in
+    func fetchMovies(completion: @escaping ([Movie]) -> Void) async {
+        let endpoint = baseUrl + "/movie/popular?language=en-US&page=1"
+        AF.request(endpoint, headers: headers).responseDecodable(of: MovieResponse.self) { response in
             switch response.result {
             case .success(let json):
-                print(json)
-                self?.movies = json.results
-            case .failure(_):
-                return
+                completion(json.results)
+            case .failure(let error):
+                print(error)
+                completion([])
             }
         }
     }
 
-    func downloadImage(posterPath: String) -> KFImage? {
+    func fetchMovieDetails(for movieId: Int, completion: @escaping (MovieDetail?) -> Void) async {
+        let endpoint = baseUrl + "/movie/\(String(movieId))?language=en-US"
+        AF.request(endpoint, headers: headers).responseDecodable(of: MovieDetail.self) { response in
+            switch response.result {
+            case .success(let json):
+                completion(json)
+            case .failure(let error):
+                print(error)
+                completion(nil)
+            }
+        }
+    }
+
+    func fetchCast(for movieId: Int, completion: @escaping ([Cast]) -> Void) async {
+        let endpoint = baseUrl + "/movie/\(String(movieId))/credits?language=en-US"
+        AF.request(endpoint, headers: headers).responseDecodable(of: MovieCredit.self) { response in
+            switch response.result {
+            case .success(let json):
+                completion(json.cast)
+            case .failure(let error):
+                print(error)
+                completion([])
+            }
+        }
+    }
+
+    func downloadImage(posterPath: String) async -> KFImage? {
         let urlString = "https://image.tmdb.org/t/p/original" + posterPath
         guard let url = URL(string: urlString) else {
             return nil
         }
         return KFImage(url)
     }
-}
 
-enum MovieListType: String {
-    case nowPlaying
-    case popular
 }
