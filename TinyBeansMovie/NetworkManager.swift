@@ -9,7 +9,7 @@ import Foundation
 import Alamofire
 import Kingfisher
 
-class NetworkManager: ObservableObject {
+class NetworkManager {
 
     private let key = ProcessInfo.processInfo.environment["API_KEY"] ?? ""
     private var headers: HTTPHeaders {
